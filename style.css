@@ -1,0 +1,45 @@
+@font-face {
+  font-family: "protoMono";
+  src: local("Proto-Mono"), local("Proto-Mono"),
+    url("fonts/ProtoMono-Regular.otf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "protoMonoBold";
+  src: local("Proto-Mono"), local("Proto-Mono"), url("fonts/ProtoMono-Bold.otf");
+  font-weight: 700;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "protoMono", sans-serif;
+}
+
+body {
+  height: 100vh;
+  width: 100%;
+  background: #080404;
+  color: white;
+}
+li,
+button {
+  font-family: "protoMonoBold", sans-serif !important;
+}
+#active {
+  color: #f6ae2d;
+  text-shadow: currentColor 0px 0px 16px;
+}
+#peer::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 1px;
+  width: 100%;
+  background: #f6ae2d;
+}
+main {
+  height: 100%;
+}

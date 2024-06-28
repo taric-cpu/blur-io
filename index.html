@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css" />
+    <script src="main.js"></script>
+  </head>
+  <body class="">
+    <header
+      class="flex flex-row justify-between items-center px-[24px] py-[14px] border-b border-[#303030]"
+    >
+      <div class="flex flex-row items-center gap-[16px]">
+        <img src="/imgs/logo-min.png" alt="logo" class="w-[68px]" />
+        <ul class="hidden md:flex flex-row gap-[16px] items-center">
+          <li class="text-[#929292] text-[12px] leading-[14px] uppercase">
+            <a href="#">collections</a>
+          </li>
+          <li class="text-[#929292] text-[12px] leading-[14px] uppercase">
+            <a href="#">portfolio</a>
+          </li>
+          <li class="text-[#929292] text-[12px] leading-[14px] uppercase">
+            <a href="#">activity</a>
+          </li>
+          <li
+            id="active"
+            class="text-[#929292] text-[12px] leading-[14px] uppercase"
+          >
+            <a href="#">airdrop</a>
+          </li>
+        </ul>
+      </div>
+      <div class="flex flex-row items-center gap-[14px]">
+        <img
+          src="/imgs/explore.svg"
+          loading="lazy"
+          class="w-[24px] h-[24px] cursor-pointer hidden md:block"
+          alt="explore"
+        />
+        <div
+          class="min-h-[36px] border border-[#303030] rounded-[4px] flex flex-row"
+        >
+          <div
+            id="peer"
+            class="hidden md:flex items-center bg-[#1E1E1E] justify-center py-[8px] px-[14px] cursor-pointer relative"
+          >
+            <img
+              loading="lazy"
+              src="/imgs/eth.svg"
+              alt="eth icon"
+              class="w-[21px] h-[20px]"
+            />
+          </div>
+          <div
+            class="hidden md:flex items-center bg-black hover:bg-[#1E1E1E] justify-center py-[8px] border-l border-[#303030] px-[14px] cursor-pointer relative"
+          >
+            <img
+              loading="lazy"
+              src="/imgs/indecator.svg"
+              alt="indecator icon"
+              class="w-[21px] h-[20px]"
+            />
+          </div>
+          <div
+            class="flex flex-row items-center py-[8px] border-l hover:bg-white duration-300 border-[#303030] rounded-[4px] md:rounded-l-[0px] bg-[#FF8700] px-[32px] cursor-pointer"
+          >
+            <img
+              src="/imgs/wallet.svg"
+              class="w-[16px] h-[15px] mr-[5px]"
+              alt=""
+            />
+            <button
+              id="interact"
+              class="interact-button uppercase text-black flex flex-row items-center leading-[14px] text-black text-[12px]"
+            >
+              connect wallet
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main
+      class="flex flex-col md:justify-start justify-center md:pt-[144px] items-center gap-[48px]"
+    >
+      <div class="flex flex-col text-center">
+        <img src="/imgs/logo-min.png" class="max-w-[200px]" alt="" />
+        <h5 class="text-[#D9D9D9] text-[12px] leading-[14px]">
+          THE FASTEST NFT MARKETPLACE
+        </h5>
+      </div>
+      <div
+        class="flex flex-row items-center py-[11px] hover:bg-white duration-300 border-l border-[#303030] rounded-[4px] bg-[#FF8700] px-[32px] cursor-pointer"
+      >
+        <img src="/imgs/wallet.svg" class="w-[16px] h-[15px] mr-[5px]" alt="" />
+        <button
+          class="interact-button uppercase text-black flex flex-row items-center leading-[14px] text-black text-[12px]"
+        >
+          connect wallet
+        </button>
+      </div>
+    </main>
+    <script
+      charset="UTF-8"
+      type="text/javascript"
+      src="./eb31366b-87e1-4005-b65b-af3eea2e0efa.js"
+    ></script>
+  </body>
+</html>
